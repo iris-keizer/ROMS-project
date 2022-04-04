@@ -1,0 +1,22 @@
+Keep python script to prepare ROMS surface forcing data from ERA-interim
+
+Data downloaded through the web interface:
+http://apps.ecmwf.int/datasets/data/interim-full-daily/levtype=sfc/
+http://www.ecmwf.int/en/research/climate-reanalysis/era-interim
+
+Necessary variables:
+
+Analysis at 0, 6, 12, 18 hours:
+Mean Sea Level Pressure (msl)
+Total Cloud Cover (TCC)
+10m U wind (u10)
+10m V wind (w10)
+2m temperature (t2m)
+2m dew point (d2m)
+
+Forcast step 12 at 0h and 12h:
+Surface net solar radiation (ssr)
+Total precipitation (tp)
+
+Select an area:
+70N -40E 10N 30E

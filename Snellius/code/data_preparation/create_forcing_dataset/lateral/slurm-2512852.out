@@ -1,0 +1,19 @@
+/gpfs/work1/0/einf2878/ROMS/code/data_preparation/create_forcing_dataset/lateral/create_forcing.py:100: RuntimeWarning: invalid value encountered in divide
+  input_grid = xr.Dataset(data_vars=dict(mask=(["lat", "lon"], np.nan_to_num(input_data[0, :, :] / input_data[0, :, :])),),
+/gpfs/work1/0/einf2878/ROMS/code/data_preparation/create_forcing_dataset/lateral/create_forcing.py:100: RuntimeWarning: invalid value encountered in divide
+  input_grid = xr.Dataset(data_vars=dict(mask=(["lat", "lon"], np.nan_to_num(input_data[0, :, :] / input_data[0, :, :])),),
+slurmstepd: error: *** JOB 2512852 ON tcn375 CANCELLED AT 2023-03-29T12:00:50 ***
+
+JOB STATISTICS
+==============
+Job ID: 2512852
+Cluster: snellius
+User/Group: ikeizer/ikeizer
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 3-17:53:04 core-walltime
+Job Wall-clock time: 00:42:08
+Memory Utilized: 7.03 GB
+Memory Efficiency: 3.14% of 224.00 GB

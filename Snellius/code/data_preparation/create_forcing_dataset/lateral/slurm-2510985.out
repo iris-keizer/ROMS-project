@@ -1,0 +1,33 @@
+/gpfs/work1/0/einf2878/ROMS/code/data_preparation/create_forcing_dataset/lateral/create_forcing.py:100: RuntimeWarning: invalid value encountered in divide
+  input_grid = xr.Dataset(data_vars=dict(mask=(["lat", "lon"], np.nan_to_num(input_data[0, :, :] / input_data[0, :, :])),),
+/gpfs/work1/0/einf2878/ROMS/code/data_preparation/create_forcing_dataset/lateral/create_forcing.py:100: RuntimeWarning: invalid value encountered in divide
+  input_grid = xr.Dataset(data_vars=dict(mask=(["lat", "lon"], np.nan_to_num(input_data[0, :, :] / input_data[0, :, :])),),
+===================== Start horizontal interpolation of Sea Level (Duration: 0.0 seconds) ========================================================
+===================== Start horizontal interpolation of Salinity and Temperature (Duration: 0.73 seconds) =========================================
+===================== Start horizontal interpolation of Zonal Velocity (Duration: 16.8 seconds) ====================================================
+===================== Start horizontal interpolation of Meridional Velocity (Duration: 24.64 seconds) =============================================
+===================== Finalised horizontal interpolation, creating final dataset ==============================================
+===================== Start vertical transformation of variables with rho-coordinates (Duration: 0.1 seconds) ===================================
+===================== Start vertical transformation of Temperature (Duration: 0.1 seconds) ======================================================
+===================== Start vertical transformation of Salinity (Duration: 4.0 minutes) =========================================================
+===================== Start vertical transformation of Zonal Velocity (Duration: 7.0 minutes) ===================================================
+===================== Start vertical transformation of Meridional Velocity (Duration: 11.0 minutes) ==============================================
+===================== Finished vertical transformation (Duration: 14.0 minutes) ==================================================================
+===================== Start integrating vertical momentum  =============================================================
+===================== Start calculating UBAR ===========================================================================
+===================== Start calculating VBAR ===========================================================================
+===================== Finished calculating vertical momentum ===========================================================
+
+JOB STATISTICS
+==============
+Job ID: 2510985
+Cluster: snellius
+User/Group: ikeizer/ikeizer
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 00:14:48
+CPU Efficiency: 0.78% of 1-07:38:40 core-walltime
+Job Wall-clock time: 00:14:50
+Memory Utilized: 447.74 MB
+Memory Efficiency: 0.20% of 224.00 GB

@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/gpfs/work1/0/einf2878/ROMS/code/data_preparation/create_forcing_dataset/lateral/create_forcing_fix.py", line 861, in <module>
+    result = xr.where(result.isnull(), grdROMS.fillval.data, result)
+NameError: name 'grdROMS' is not defined
+
+JOB STATISTICS
+==============
+Job ID: 2525311
+Cluster: snellius
+User/Group: ikeizer/ikeizer
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 00:00:17
+CPU Efficiency: 0.23% of 02:01:36 core-walltime
+Job Wall-clock time: 00:00:57
+Memory Utilized: 150.05 MB
+Memory Efficiency: 0.07% of 224.00 GB

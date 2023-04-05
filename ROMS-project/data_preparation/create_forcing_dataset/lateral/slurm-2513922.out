@@ -1,0 +1,30 @@
+===================== Start horizontal interpolation of Sea Level (Duration: 0.0 seconds) ========================================================
+===================== Start horizontal interpolation of Salinity and Temperature (Duration: 1.76 seconds) =========================================
+===================== Start horizontal interpolation of Zonal Velocity (Duration: 22.86 seconds) ====================================================
+===================== Start horizontal interpolation of Meridional Velocity (Duration: 33.21 seconds) =============================================
+===================== Finalised horizontal interpolation, creating final dataset ==============================================
+===================== Start vertical transformation of variables with rho-coordinates (Duration: 0.11 seconds) ===================================
+===================== Start vertical transformation of Temperature (Duration: 0.11 seconds) ======================================================
+===================== Start vertical transformation of Salinity (Duration: 367.0 minutes) =========================================================
+===================== Start vertical transformation of Zonal Velocity (Duration: 731.0 minutes) ===================================================
+===================== Start vertical transformation of Meridional Velocity (Duration: 1092.0 minutes) ==============================================
+===================== Finished vertical transformation (Duration: 1452.0 minutes) ==================================================================
+===================== Start integrating vertical momentum  =============================================================
+===================== Start calculating UBAR ===========================================================================
+===================== Start calculating VBAR ===========================================================================
+===================== Finished calculating vertical momentum ===========================================================
+
+JOB STATISTICS
+==============
+Job ID: 2513922
+Cluster: snellius
+User/Group: ikeizer/ikeizer
+State: RUNNING
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 129-11:52:32 core-walltime
+Job Wall-clock time: 1-00:16:49
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 224.00 GB (1.75 GB/core)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

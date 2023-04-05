@@ -1,0 +1,15 @@
+
+JOB STATISTICS
+==============
+Job ID: 2490191
+Cluster: snellius
+User/Group: ikeizer/ikeizer
+State: RUNNING
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 05:24:16 core-walltime
+Job Wall-clock time: 00:02:32
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 224.00 GB (1.75 GB/core)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
